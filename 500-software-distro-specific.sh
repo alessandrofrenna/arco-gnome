@@ -55,9 +55,6 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
-dmenu
-imagemagick
-w3m
 hardcode-fixer-git
 )
 

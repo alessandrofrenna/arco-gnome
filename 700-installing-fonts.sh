@@ -66,8 +66,11 @@ ttf-droid
 ttf-hack
 ttf-inconsolata
 ttf-liberation
-ttf-roboto
 ttf-ubuntu-font-family
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+ttf-jetbrains-mono
 tamsyn-font
 )
 

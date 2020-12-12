@@ -51,9 +51,11 @@ lightdm
 arcolinux-lightdm-gtk-greeter
 arcolinux-lightdm-gtk-greeter-settings
 arcolinux-wallpapers-git
+arcolinux-arc-themes-nico-git
+papirus-icon-theme
 gnome
 gnome-tweaks
-guake
+arcolinux-tweak-tool-git
 )
 #gnome-extra can be added too
 

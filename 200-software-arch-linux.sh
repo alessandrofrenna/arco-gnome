@@ -52,44 +52,11 @@ func_category() {
 
 ###############################################################################
 
-func_category Accessories
-
-list=(
-variety
-)
-
-count=0
-for name in "${list[@]}" ; do
-	count=$[count+1]
-	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
-	func_install $name
-done
-
-###############################################################################
-
 func_category Development
 
 list=(
-atom
-meld
-sublime-text-dev
-)
-
-count=0
-for name in "${list[@]}" ; do
-	count=$[count+1]
-	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
-	func_install $name
-done
-
-###############################################################################
-
-func_category Graphics
-
-list=(
-gimp
-inkscape
-nomacs
+brackets-bin
+visual-studio-code-bin
 )
 
 count=0
@@ -104,7 +71,8 @@ done
 func_category Internet
 
 list=(
-chromium
+firefox
+telegram-desktop
 qbittorrent
 )
 
@@ -120,7 +88,7 @@ done
 func_category Multimedia
 
 list=(
-vlc
+spotify
 )
 
 count=0
